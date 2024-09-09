@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.24db6cee.js",
-    "static/media/HeroImage.jpg": "/static/media/HeroImage.f23d14d212b34f19d8a7.jpg",
-    "static/media/adeona.png": "/static/media/adeona.5ee80dd4460728eb9712.png",
-    "static/media/prof_pic.jpg": "/static/media/prof_pic.b6f1e2690ffacb1dcf9e.jpg",
-    "static/media/university.jpg": "/static/media/university.5ad1d2e314bf919589e0.jpg",
-    "static/media/school.jfif": "/static/media/school.5567b7c4b073a2af308a.jfif",
-    "index.html": "/index.html",
-    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.24db6cee.js.map": "/static/js/main.24db6cee.js.map"
+    "main.css": "/portfolio-web-site/static/css/main.bf538fe7.css",
+    "main.js": "/portfolio-web-site/static/js/main.8b909510.js",
+    "static/media/HeroImage.jpg": "/portfolio-web-site/static/media/HeroImage.f23d14d212b34f19d8a7.jpg",
+    "static/media/adeona.png": "/portfolio-web-site/static/media/adeona.5ee80dd4460728eb9712.png",
+    "static/media/prof_pic.jpg": "/portfolio-web-site/static/media/prof_pic.b6f1e2690ffacb1dcf9e.jpg",
+    "static/media/university.jpg": "/portfolio-web-site/static/media/university.5ad1d2e314bf919589e0.jpg",
+    "static/media/school.jfif": "/portfolio-web-site/static/media/school.5567b7c4b073a2af308a.jfif",
+    "index.html": "/portfolio-web-site/index.html",
+    "main.bf538fe7.css.map": "/portfolio-web-site/static/css/main.bf538fe7.css.map",
+    "main.8b909510.js.map": "/portfolio-web-site/static/js/main.8b909510.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.24db6cee.js"
+    "static/js/main.8b909510.js"
   ]
 }
