@@ -15,7 +15,7 @@ export const Bio = {
   github: "https://github.com/kasun97-sudo",
   gitlab : "https://gitlab.com/iamkasun97",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/10Wbm57SyGj-eMnRvZ34iN7LIZl4YqGmI/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kasun-thenuwara-75486525a/",
   insta: "https://www.facebook.com/kazun.drulz",
   facebook: "https://www.facebook.com/kazun.drulz",
