@@ -28,7 +28,7 @@ const FooterWrapper = styled.footer`
 const Logo = styled.h1`
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: #015C92;
 `;
 
 const Nav = styled.nav`

@@ -98,8 +98,8 @@ export const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border-radius: 20%;
+  border: 2px solid #015C92;
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -133,7 +133,7 @@ export const TextLoop = styled.div`
   font-size: 32px;
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
+  color: black;
   line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
@@ -146,7 +146,7 @@ export const TextLoop = styled.div`
 `;
 
 export const Span = styled.span`
-  color: ${({ theme }) => theme.primary};
+  color: #015C92;
   cursor: pointer;
 `;
 

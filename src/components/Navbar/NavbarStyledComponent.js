@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1200px;
-  background-color: grey;
+  background-color: #015C92;
   border-radius: 10px;
 `;
 
@@ -60,7 +60,7 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
+    color: white;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -76,13 +76,13 @@ export const NavLink = styled.a`
 
 
 export const GitHubButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
+  border: 1.8px solid white;
   justify-content: center;
   display: flex;
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: white;
   cursor: pointer;
   padding: 0 20px;
   margin-left : 20px;
@@ -91,8 +91,31 @@ export const GitHubButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
-      background: ${({ theme }) => theme.primary};
-      color: ${({ theme }) => theme.white};     
+      border : 1.8px solid ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.primary}; 
+    }
+    @media screen and (max-width: 768px) { 
+    font-size: 14px;
+    }
+`;
+
+export const GitHubButton1 = styled.a`
+  border: 1.8px solid white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.6s ease-in-out;
+    :hover {
+      border : 1.8px solid ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.primary}; 
     }
     @media screen and (max-width: 768px) { 
     font-size: 14px;

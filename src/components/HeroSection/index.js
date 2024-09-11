@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div id="about">
             <HeroContainer>
                 <HeroBg>
-                    <HeroBgAnimation />
+                    {/* <HeroBgAnimation /> */}
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
@@ -33,7 +33,6 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-
                         <Img src={ProfilePicture} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>

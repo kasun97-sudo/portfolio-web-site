@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, GitHubButton1 ,ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
 import { DiStackoverflow } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
@@ -51,7 +51,8 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton1 style={{padding: '10px 16px',background: `#015C92`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github</GitHubButton1>
+            <GitHubButton1 style={{padding: '10px 16px',background: `#015C92`, color: 'white',width: 'max-content'}} href={Bio.gitlab} target="_blank">Gitlab</GitHubButton1>
           </MobileMenu>
         }
       </NavbarContainer>

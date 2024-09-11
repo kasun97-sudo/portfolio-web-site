@@ -96,11 +96,11 @@ const Tags = styled.div`
 const Tag = styled.div`
     font-size: 14px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
+    color: #015C92;
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary + 20};
+    background-color: ${({ theme }) => theme.primary + 15};
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }

@@ -108,9 +108,17 @@ const ContactButton = styled.input`
   text-decoration: none;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: linear-gradient(
+      225deg,
+      hsla(200, 100%, 50%, 1) 0%,
+      hsla(180, 100%, 75%, 1) 100% 
+    );
+    background: -moz-linear-gradient(225deg,
+      hsla(200, 100%, 50%, 1) 0%,
+      hsla(180, 100%, 75%, 1) 100%) 100%);
+    background: -webkit-linear-gradient(225deg,
+      hsla(200, 100%, 50%, 1) 0%,
+      hsla(180, 100%, 75%, 1) 100%) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -129,17 +137,16 @@ const Contact = () => {
   const form = useRef();
 
   const handleSubmit = (e) => {
-    // e.preventDefault();
-    // emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-    //   .then((result) => {
-    //     setOpen(true);
-    //     form.current.reset();
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+    e.preventDefault();
+
+    emailjs.sendForm('service_xonmfti', 'template_3w0ekj8', form.current, 'YDSX9PZZOk58xCk2r')
+      .then((result) => {
+        setOpen(true);
+        form.current.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
   }
-
-
 
   return (
     <Container>
