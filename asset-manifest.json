@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio-web-site/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio-web-site/static/js/main.4b320785.js",
+    "main.js": "/portfolio-web-site/static/js/main.d5fe3136.js",
     "static/media/HeroImage.jpg": "/portfolio-web-site/static/media/HeroImage.f23d14d212b34f19d8a7.jpg",
+    "static/media/react.png": "/portfolio-web-site/static/media/react.6cf3cc09892b2557090b.png",
+    "static/media/aws_tech.png": "/portfolio-web-site/static/media/aws_tech.fc261105d6d990055097.png",
+    "static/media/aws_prac.png": "/portfolio-web-site/static/media/aws_prac.2fbb1e96692bd7b22970.png",
     "static/media/adeona.png": "/portfolio-web-site/static/media/adeona.5ee80dd4460728eb9712.png",
     "static/media/prof_pic.jpg": "/portfolio-web-site/static/media/prof_pic.b6f1e2690ffacb1dcf9e.jpg",
     "static/media/university.jpg": "/portfolio-web-site/static/media/university.5ad1d2e314bf919589e0.jpg",
     "static/media/school.jfif": "/portfolio-web-site/static/media/school.5567b7c4b073a2af308a.jfif",
+    "static/media/contact.png": "/portfolio-web-site/static/media/contact.0b53f5f621c84ae61221.png",
     "index.html": "/portfolio-web-site/index.html",
     "main.bf538fe7.css.map": "/portfolio-web-site/static/css/main.bf538fe7.css.map",
-    "main.4b320785.js.map": "/portfolio-web-site/static/js/main.4b320785.js.map"
+    "main.d5fe3136.js.map": "/portfolio-web-site/static/js/main.d5fe3136.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.4b320785.js"
+    "static/js/main.d5fe3136.js"
   ]
 }
