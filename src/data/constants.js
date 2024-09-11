@@ -2,6 +2,11 @@ import UniversityLogo from '../images/university.jpg';
 import SchoolLogo from '../images/school.jfif';
 import AdeonaLogo from '../images/adeona.png';
 
+// certificates
+import AwsTech from '../images/aws_tech.png';
+import AwsPrac from '../images/aws_prac.png';
+import React from '../images/react.png';
+
 export const Bio = {
   name: "Kasun Thenuwara",
   roles: [
@@ -11,7 +16,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I'm a driven, adaptable person that is committed to doing excellent work and has a love of learning. I'm always up for a challenge and approach every opportunity with a growth mindset and a positive outlook. I'm a dedicated worker who enjoys learning new things, trying out various strategies, and honing my abilities.",
   github: "https://github.com/kasun97-sudo",
   gitlab : "https://gitlab.com/iamkasun97",
   resume:
@@ -205,6 +210,30 @@ export const education = [
     date: "Aug 2013 Ordinary Level",
     grade: "9 - As",
     desc: "I completed my ordinary level education at Mahinda College Galle",
+  },
+];
+
+export const certificates = [
+  {
+    id : 0,
+    platform : "COURSERA",
+    about : "Advanced React",
+    certificateImage : React,
+    certificateLink : "https://www.coursera.org/account/accomplishments/verify/5W4Y39BAT7E7",
+  },
+  {
+    id : 1,
+    platform : "COURSERA",
+    about : "AWS Cloud Practitioner Essentials",
+    certificateImage : AwsPrac,
+    certificateLink : "https://www.coursera.org/account/accomplishments/verify/KPCBXTKAGA7V",
+  },
+  {
+    id : 2,
+    platform : "COURSERA",
+    about : "AWS Cloud Technical Essentials",
+    certificateImage : AwsTech,
+    certificateLink : "https://www.coursera.org/account/accomplishments/verify/BBADT5F5W64K",
   },
 ];
 

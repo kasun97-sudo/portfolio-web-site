@@ -8,6 +8,7 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Certificates from './components/Certificates/index.js';
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
@@ -29,7 +30,8 @@ const Wrapper = styled.div`
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  const [openCertificate , setOpenCertificate] = useState({state : false , certificate : null});
+
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
@@ -40,6 +42,7 @@ function App() {
             <Education />
             <Experience />
           </Wrapper>
+          <Certificates openCertificate={openCertificate} setOpenCertificate={setOpenCertificate}/>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Skills />

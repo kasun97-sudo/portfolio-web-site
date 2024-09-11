@@ -3,7 +3,28 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
+import ContactImage from '../../images/contact.png';
 
+export const Img = styled.img`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  border: 2px solid #015C92;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 280px;
+    max-height: 280px;
+  }
+`;
+ 
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -161,6 +182,8 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+        <Title>Scan Me!</Title>
+        <Img src={ContactImage}/>
         <Snackbar
           open={open}
           autoHideDuration={6000}
